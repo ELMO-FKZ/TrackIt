@@ -22,7 +22,7 @@ The application is designed to help users track their projects and corresponding
 
 ## Demo
 
-Here is a working live demo : https://trackit.onrender.com/
+Here is a working live demo : https://trackit-7va8.onrender.com
 
 
 ## Features
