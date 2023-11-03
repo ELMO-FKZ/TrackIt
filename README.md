@@ -1,4 +1,4 @@
-![Logo](https://i.imgur.com/uTLzez4.png)
+![Logo](https://i.imgur.com/qDDtg9T.png)
 
 
 # TrackIt
