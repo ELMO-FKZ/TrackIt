@@ -37,7 +37,7 @@ const TaskAdder = memo(function TaskAdder({project}: TaskAdderProps) {
     return (
         <>
         {isAddClicked && 
-            <form className={`main__project-task main__project-task--${projectColor(status)} main__project-task--align`} onSubmit={(e) => submitNewTask(e)}>
+            <form className={`main__project-task main__project-task--${projectColor(project.status)} main__project-task--align`} onSubmit={(e) => submitNewTask(e)}>
                 <FaCaretRight/>
                 <input className="main__project-task-input" id={inputId} type="text" name="text" value={newTask.text} onChange={(e) => handleFormChange(e)} required/> 
                 <button className="main__project-task-add" type="submit"><FaRegCheckCircle/></button>
