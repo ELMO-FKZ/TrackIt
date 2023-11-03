@@ -1,0 +1,12 @@
+.main__list-project { 
+user-select: none; }
+.main__list-project:not(:last-of-type) {
+border-block: 0.5px solid var(--shadow-color); }
+.main__list-project--grey {
+background-color: var(--light-grey); }
+.main__list-project--yellow {
+background-color: var(--light-yellow); }
+.main__list-project--red {
+background-color: var(--light-red); }
+.main__list-project--green {
+background-color: var(--light-green); }

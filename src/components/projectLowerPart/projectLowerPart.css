@@ -1,0 +1,35 @@
+.main__project-tasks {
+font-family: var(--secondary-font);
+padding: 0.5rem 2rem 0.5rem 6rem; }
+        .main__project-task-checkbox {
+        position: relative;
+        appearance: none;
+        border: 1px solid var(--light-blue);
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
+        transition: var(--main-duration); 
+        cursor: pointer;
+        vertical-align: middle; }
+        .main__project-task-checkbox::before {
+        position: absolute;
+        content: "";
+        top: 50%;
+        left: 50%;
+        transform: scale(0);
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        background-color: var(--light-blue); }
+        .main__project-task-checkbox:checked::before {
+        transform: translate(-50%, -50%) scale(1); }
+        .main__project-task-text {
+        flex: 1;
+        cursor: pointer; 
+        user-select: none;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 0.1rem; }
+        .main__project-task-text--completed {
+        text-decoration: line-through; }

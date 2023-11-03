@@ -1,0 +1,7 @@
+.main__head {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 3rem; }
+    .main__head-mode {
+    background-color: transparent; }

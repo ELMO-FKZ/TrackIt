@@ -1,0 +1,32 @@
+.modal__tasks {
+overflow-y: auto;
+max-height: 10rem; }
+.modal__tasks::-webkit-scrollbar {
+width: 0.8rem; }
+.modal__tasks::-webkit-scrollbar-track {
+background-color: var(--scrollbar-track); }
+.modal__tasks::-webkit-scrollbar-thumb {
+background-color: var(--scrollbar-thumb); }
+.modal__tasks::-webkit-scrollbar-thumb:hover {
+background-color: var(--dark-blue); }
+    .modal__task {
+    position: relative; }
+    .modal__task:not(:last-child) {
+    margin-bottom: 0.5rem; }
+    .modal__delete-task {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    display: grid;
+    place-items: center;
+    transform: translateX(-4px);
+    background-color: transparent;
+    z-index: 6; }
+.modal__more {
+display: flex;
+gap: 1rem;
+padding: 0.5rem 1rem;
+background-color: transparent;
+color: var(--white-color); }

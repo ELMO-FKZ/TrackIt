@@ -1,0 +1,5 @@
+.main__list {
+border-radius: 0.4rem;
+margin-block: 6rem;
+background-color: var(--white-color);
+box-shadow: var(--shadow-color) 0px 0px 30px 0px; }

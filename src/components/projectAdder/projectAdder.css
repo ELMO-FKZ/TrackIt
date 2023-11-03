@@ -1,0 +1,20 @@
+.main__list-add {
+position: relative;
+padding: 2rem;
+border-bottom: 1px solid var(--shadow-color); }
+    .main__add-btn {
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    color: var(--white-color);
+    background-color: var(--light-blue);
+    box-shadow: var(--shadow-color) 0px 0px 30px 0px; }
+    .background-hover:hover {
+    background-color: var(--text-hover); }

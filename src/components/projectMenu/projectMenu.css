@@ -1,0 +1,28 @@
+.main__head-menu {
+position: absolute;
+top: -2rem;
+right: 5rem;
+width: 15rem;
+z-index: 4;
+border-radius: 0.4rem;
+box-shadow: var(--shadow-color) 0px 0px 30px 0px;
+background-color: var(--light-blue);
+color: var(--white-color);
+padding: 0.5rem; }
+.main__head-menu::before {
+content: "";
+position: absolute;
+top: 26px;
+right: -8px;
+z-index: -1;
+width: 0;
+height: 0;
+border-top: 14px solid transparent;
+border-bottom: 14px solid transparent;
+border-left: 12px solid var(--light-blue); }
+    .main__project-menu-item {
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border-radius: 0.4rem; }
+    .main__project-menu-item:hover {
+    background-color: var(--dark-blue); }

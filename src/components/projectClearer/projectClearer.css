@@ -1,0 +1,7 @@
+.main__list-clear {
+padding: 1rem 2rem;
+border-top: 1px solid var(--shadow-color);
+text-align: right; }
+    .main__clear {
+    background-color: transparent;
+    color: var(--light-blue); }
