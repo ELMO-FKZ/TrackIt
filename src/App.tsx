@@ -1,16 +1,14 @@
-import Header from "./components/header/Header"
-import ProjectManager from "./components/projectManager/ProjectManager"
-import Widgets from "./components/widgets/Widgets"
+import { Routes, Route, Navigate } from "react-router-dom"
+import Home from "./pages/Home"
 
 
 function App() {
 
   return (
-    <main className="main">
-      <Header />
-      <Widgets />
-      <ProjectManager />
-    </main>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="*" element={<Navigate replace to="/" />} />
+    </Routes>
   )
 }
 

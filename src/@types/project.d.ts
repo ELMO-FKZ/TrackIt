@@ -96,13 +96,3 @@ export type ProjectContextProps = {
 export type ProjectContextProviderProps = {
     children: React.ReactNode;
 }
-
-// Functions :
-
-
-// export interface StringProps {
-//     todo: string;
-//     setTodo: React.Dispatch<setStateAction<string>>;
-// }
-
-// const [todo, setTodo] = useState<string>("")
