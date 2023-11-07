@@ -64,7 +64,7 @@ font-family: var(--primary-font);
 font-weight: 400;
 color: var(--light-blue); 
 min-height: 100vh;
-min-height: 100svh;
+min-height: 100dvh;
 background: linear-gradient(270deg, var(--light-green), var(--light-red), var(--light-yellow), var(--white-color)); } 
 .body--overflow-hidden {
 overflow-y: hidden; } 
